@@ -1,0 +1,16 @@
+# Enable C support
+language: c
+
+# OS selection
+os:
+  - linux
+  - osx
+
+# Compiler selection
+compiler:
+  - clang
+  - gcc
+# Build steps
+script:
+  - ./configure
+  - make
